@@ -34,8 +34,8 @@ class pg_backup {
     this.#POSTGRES_PASSWORD = password;
     this.#schema_name = schema_name;
     this.#baseDir = baseDir
-      ? path.join(rootPath, `./${baseDir}/backup_${formatDate}`)
-      : path.join(rootPath, `./backup_${formatDate}`);
+      ? path.join(rootPath, `../../${baseDir}/backup_${formatDate}`)
+      : path.join(rootPath, `../../backup_${formatDate}`);
   }
 
   async #createDir(dirPath) {
