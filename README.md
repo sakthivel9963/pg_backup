@@ -7,13 +7,13 @@ This will backup the postgres function or store procedure or table create script
 Using npm:
 
 ```sh
-npm install pg_backup
+npm install postgres_backup
 ```
 
 Using yarn:
 
 ```sh
-yarn add pg_backup
+yarn add postgres_backup
 ```
 
 ## Notes
@@ -25,7 +25,7 @@ This project will create backup directory at the root of your project folder.
 Initialize the pg_backup
 
 ```javascript
-const pg_backup = require('pg_backup');
+const pg_backup = require('postgres_backup');
 const pgConfig = {
   databaseName: 'require',
   userName: 'require',

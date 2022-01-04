@@ -1,5 +1,5 @@
 {
-  "name": "pg_backup",
+  "name": "postgres_backup",
   "version": "1.0.0",
   "description": "This will backup the postgres function or store procedure or table create script to separate file for each table and function for all the schema or particular schema.",
   "main": "index.js",
