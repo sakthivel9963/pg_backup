@@ -1,0 +1,28 @@
+{
+  "name": "pg_backup",
+  "version": "1.0.0",
+  "description": "This will backup the postgres function or store procedure or table create script to separate file for each table and function for all the schema or particular schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakthivel9963/pg_backup.git"
+  },
+  "keywords": [
+    "postgres",
+    "postgres backup",
+    "postgres function",
+    "postgres store procedure"
+  ],
+  "author": "sakthivel9963",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakthivel9963/pg_backup/issues"
+  },
+  "homepage": "https://github.com/sakthivel9963/pg_backup#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
